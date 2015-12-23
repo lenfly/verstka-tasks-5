@@ -109,6 +109,8 @@ h1
     float: left;
     margin: 1%;
     line-height: 1.5;
+    max-height: 700px;
+    overflow: hidden;
 }
 
 .cat-img-container
@@ -126,6 +128,11 @@ h1
     display: inline-block;
     vertical-align: bottom;
     line-height: 1.25;
+}
+
+.cat-img:hover
+{
+    opacity: .5;
 }
 
 .cat-name
@@ -171,6 +178,11 @@ h1
     line-height: 18px;
 }
 
+.cat-description:hover
+{
+    color: gray;
+}
+
 .cat-description-head
 {
     font-weight: bold;
@@ -181,18 +193,18 @@ h1
     position: relative;
     display: inline;
     float: left;
-    z-index:1;
-    width:5px;
-    height:16px;
+    z-index: 1;
+    width: 5px;
+    height: 16px;
 }
 
 .rating input[type=radio]
 {
     z-index: 2;
-    display:inline;
+    display: inline;
     float: left;
-    width:13px;
-    height:13px;
+    width: 13px;
+    height: 13px;
 }
 
 .star
